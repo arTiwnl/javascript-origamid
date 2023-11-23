@@ -5,5 +5,19 @@ console.log(titulo.classList); // retorna as classes;
 console.log(titulo.id); // retorna o id;
 console.log(titulo.offsetHeight); // retorna altura do elemento;
 
-titulo.addEventListener('click', callback); //Método
+
+
+
+
+
+/*
+//Fazendo com lambda function
+titulo.addEventListener('click', function (){ 
+    console.log('VSFD', titulo.innerText);
+});
+
+
+*/
+
+
 //ativa a função callback ao clicar o título
